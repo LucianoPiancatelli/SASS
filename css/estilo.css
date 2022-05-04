@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ad3a3a;
+}
+
+.logo {
+  background-color: #acad67;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  display: -ms-grid;
+  display: grid;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+#logo {
+  width: 400px;
+  margin-left: 730px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d8d8d8;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav :hover {
+  font-size: larger;
+  background-color: #ad3a3a;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.boletin {
+  margin-top: 80px;
+  display: -ms-grid;
+  display: grid;
+  margin-left: auto;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1cm;
+}
+
+form {
+  border: 4px solid #f1f1f1;
+}
+
+.formulario {
+  margin-top: auto;
+  padding: 20px;
+  background-color: #ad3a3a;
+  width: 400px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ca3838;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #030101;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.5;
+}
+
+.footer {
+  height: auto;
+  background-color: black;
+  height: auto;
+  display: -ms-grid;
+  display: grid;
+  margin-top: 300px;
+  height: 3cm;
+  font-weight: bolder;
+  color: beige;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -webkit-box-flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column img:hover {
+  -webkit-transform: skewY(10deg);
+          transform: skewY(10deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .boletin {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mapa {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+            flex: 50%;
+    max-width: 50%;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
